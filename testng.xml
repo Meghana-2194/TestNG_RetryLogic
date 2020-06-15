@@ -1,0 +1,12 @@
+<?xml version ="1.0"  encoding= "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "RetryFailedTestCase" verbose = "1">
+<listeners>
+    <listener class-name = "Analyzer.MyTransformer" />
+</listeners>
+   <test name ="RetryMultipleFailedTestCase">
+        <classes >
+             <class name = "MyTest.TestLevel"> </class>
+            </classes>
+     </test>
+</suite>
